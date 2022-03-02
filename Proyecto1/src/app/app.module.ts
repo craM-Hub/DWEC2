@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Ej2Component } from './ej2/ej2.component';
@@ -13,6 +12,7 @@ import { Ej1Component } from './ej1/ej1.component';
 import { FormsModule } from '@angular/forms';
 import { FechaComponent } from './fecha/fecha.component';
 import { FechaPipeComponent } from './fecha-pipe/fecha-pipe.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,6 +31,8 @@ import { FechaPipeComponent } from './fecha-pipe/fecha-pipe.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
