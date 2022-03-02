@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ej4.component.css']
 })
 export class Ej4Component implements OnInit {
-
+  title = "Ejercicio 4";
   constructor() { }
 
   ngOnInit(): void {

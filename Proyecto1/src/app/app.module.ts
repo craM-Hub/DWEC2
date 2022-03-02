@@ -12,6 +12,7 @@ import { Ej7Component } from './ej7/ej7.component';
 import { Ej1Component } from './ej1/ej1.component';
 import { FormsModule } from '@angular/forms';
 import { FechaComponent } from './fecha/fecha.component';
+import { FechaPipeComponent } from './fecha-pipe/fecha-pipe.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FechaComponent } from './fecha/fecha.component';
     Ej6Component,
     Ej7Component,
     Ej1Component,
-    FechaComponent
+    FechaComponent,
+    FechaPipeComponent
   ],
   imports: [
     BrowserModule,
