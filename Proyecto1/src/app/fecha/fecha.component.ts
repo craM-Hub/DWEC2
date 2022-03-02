@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FechaComponent implements OnInit {
   fecha = new Date();
-  today = this.fecha.getDate()+'-'+(this.fecha.getMonth()+1)+'-'+this.fecha.getFullYear();
-
   constructor() { }
 
   ngOnInit(): void {
